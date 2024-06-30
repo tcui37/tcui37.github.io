@@ -39,7 +39,7 @@ const teachings = [
 const Teachings: React.FC = () => {
     return (
         <div>
-            <h1>Teachings</h1>
+            <h1>Teaching</h1>
             {teachings.map((teaching) => (
                 <>
                     <h3>{teaching.organization}</h3>
