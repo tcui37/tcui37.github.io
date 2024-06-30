@@ -50,6 +50,7 @@ const Resume: React.FC = () => {
     return (
         <div>
             <h1>Resume</h1>
+            My full CV can be found <a href='https://www.dropbox.com/scl/fi/qvs2mru4w8k05v8dnrb44/Tony-Cui-CV.pdf?rlkey=1mmb0uf2e5cxiw7luod5txpwk&st=lt8ernvk&dl=0'>Here</a>:
             <h2>Education</h2>
                 {experiences.education.map((education) => (
                     <>

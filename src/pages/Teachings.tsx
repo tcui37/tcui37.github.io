@@ -13,7 +13,7 @@ const teachings = [
     {
         "title": "Instructor & Cirriculum Developer",
         "organization": "MIT Global Teaching Labs: Israel & Siraj Digital Tent",
-        "date": "January 2023",
+        "date": "January 2022",
         "description": "Our team of 5 pioneered the first iteration of GTL Israel's Digital Tent program, a 4-week program that introduces a class of 20 high school sophomores across 7 villages in the Negev to computer science. We utilized the principle of backwards design to develope 4 weeks of computer science cirriculum, including python fundamentals, hardware and circuitry, and web development. We had developed lesson plans, test cases, homework assignments, and projects of varying difficulty from scratch, and had lots of fun teaching and mentoring the kids! ❤️ ",
         "img": Tent,
     },
