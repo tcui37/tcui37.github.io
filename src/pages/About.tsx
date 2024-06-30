@@ -14,7 +14,7 @@ const About: React.FC = () => {
 
                 <p>I completed my undergraduate studies at MIT, where I conducted research at the <a href='https://cdfg.mit.edu/'>MIT Computational Design & Fabrication</a> group, working on reinforcement learning methods for black box optimization, and the <a href='https://gamelab.mit.edu/'>MIT Game Lab</a> where I worked on learning simulations for kids!</p>
 
-                <p>Previously, I held two internships at <a href='Microsoft'>Microsoft</a>. In 2023, I worked on an internal AI information retrieval service with <a href='https://azure.microsoft.com/en-us/solutions/ai'>Microsoft Cloud & AI</a>. In 2022, I developed a command line suite for microservice development with <a href='https://www.microsoft.com/en-us/research/group/exd/'>Microsoft E & D </a></p>
+                <p>Previously, I held two internships at <a href='Microsoft'>Microsoft</a>. In 2023, I worked on an internal AI information retrieval service with <a href='https://azure.microsoft.com/en-us/solutions/ai'>Microsoft Cloud & AI</a>. In 2022, I developed a command line suite for microservice development with <a href='https://www.microsoft.com/en-us/research/group/exd/'>Microsoft E & D</a>.</p>
 
                 <p>My linkedin can be found <a href='https://www.linkedin.com/in/tcui/'>here</a>. My email is ta&#123;last_name&#125;@mit.edu  </p>
                 </Grid>
