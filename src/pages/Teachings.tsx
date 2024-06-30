@@ -19,6 +19,14 @@ const teachings = [
         "img": Tent,
         "link": "https://misti.mit.edu/mit-israel",
     },
+    {
+        "title": "Beginner Hack Workshop Co-Lead",
+        "organization": "HackMIT 2022",
+        "date": "September 2022",
+        "description": "Amanda and I lead the beginner hack workshop for HackMIT 2022, where we taught basic web development and version control.",
+        "img": null,
+        "link": "https://comet-bathroom-74b.notion.site/Beginner-Hack-ecbd1f393bba44428b4f7b0c47a39167",
+    },
     // {
     //     "title": 'Teaching Assistant',
     //     "organization": 'MIT 6.100A/B Introduction Introduction to Computational Thinking and Data Science',
@@ -36,7 +44,7 @@ const Teachings: React.FC = () => {
                 <>
                     <h3>{teaching.organization}</h3>
                     <p>                    <i>{teaching.title}</i> |                    {teaching.date} | <a href={teaching.link}> link </a></p>
-                    <img src={teaching.img} className='img'></img>
+                    {teaching.img && <img src={teaching.img} className='img'></img>}
                     <p>{teaching.description}</p>
                     
                 </>
