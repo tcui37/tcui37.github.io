@@ -2,9 +2,10 @@ import './App.scss';
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import About from './pages/About';
-import Resume from './pages/Resume';
+import CV from './pages/CV';
 import Teachings from './pages/Teachings';
 import Projects from './pages/Projects';
+import Coursework from './pages/Coursework';
 import { AppBar, Toolbar, IconButton, Typography, Button, } from '@mui/material';
 
 const pages = ['About', 'Resume'];
@@ -17,10 +18,10 @@ function Navbar() {
                   Tony Cui
               </Typography>
               <Button color="inherit" component={Link} to='/'> About </Button>
-              <Button color="inherit" component={Link} to='/resume'> Resume </Button>
+              <Button color="inherit" component={Link} to='/CV'> CV </Button>
               <Button color="inherit" component={Link} to='/projects'> Projects </Button>
               <Button color="inherit" component={Link} to='/teachings'> Teachings </Button>
-
+              <Button color="inherit" component={Link} to='/Coursework'> Coursework </Button>
           </Toolbar>
       </AppBar>
   );
@@ -37,9 +38,11 @@ function App() {
         <div className='half'>
           <Routes>
             <Route path='/' element={<About />} />
-            <Route path='/resume' element={<Resume />} />
+            <Route path='/CV' element={<CV />} />
             <Route path='/teachings' element={<Teachings />} />
             <Route path='/projects' element={<Projects />} />
+            <Route path='/Coursework' element={<Coursework />} />
+            
           </Routes> 
         </div>
       </BrowserRouter>
