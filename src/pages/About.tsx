@@ -1,5 +1,5 @@
 import React from 'react';
-import pfp from '../imgs/tony.png'
+import pfp from '../imgs/tonycenter2.jpg'
 import { Grid } from '@mui/material';
 const cai = 'https://www.google.com/search?q=microsoft+cloud+%2B+ai&oq=micro&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIVCAEQLhhDGMcBGLEDGNEDGIAEGIoFMgYIAhBFGDsyBggDEEUYOzIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEHODMxajBqMagCALACAA&sourceid=chrome&ie=UTF-8'
 const About: React.FC = () => {
