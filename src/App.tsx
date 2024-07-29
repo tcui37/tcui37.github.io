@@ -6,7 +6,8 @@ import CV from './pages/CV';
 import Teachings from './pages/Teachings';
 import Projects from './pages/Projects';
 import Coursework from './pages/Coursework';
-import { AppBar, Toolbar, IconButton, Typography, Button, } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Typography, Button, Box } from '@mui/material';
+
 
 const pages = ['About', 'Resume'];
 
@@ -34,7 +35,8 @@ function App() {
       <Navbar/>
         <br></br>
         <br></br>
-
+        
+        
         <div className='half'>
           <Routes>
             <Route path='/' element={<About />} />

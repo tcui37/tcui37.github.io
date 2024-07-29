@@ -9,6 +9,22 @@
   margin-right: auto;
 }
 
+.intro-flexbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  margin-top: 2%;
+  align-content: center;
+}
+
+.item {
+  // border: solid;
+  width: 45%;
+  min-width: 300px;
+  margin: auto
+}
+
 a {
   color: gray;
   text-decoration: underline;
