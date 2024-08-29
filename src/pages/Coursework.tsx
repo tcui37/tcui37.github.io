@@ -26,14 +26,14 @@ import React from 'react';
 // }
 const coursework = {
     'Machine Learning': [
-        '6.7960: Deep Learning (G)',
+        '6.7960 - Deep Learning (G)',
         '6.8200 - Sensorimotor Learning (G)',
         '6.8300 - Advanced Topics in Computer Vision (G)',
         '6.5940 - TinyML and Efficient Deep Computing (G)',
         '6.8611 - Natural Language Processing',
     ],
     'Theoretical CS': [
-        '18.408 - Algorithmic Toolkit (G)',
+        '18.408 - Topics in Theoretical Computer Science: An Algorithmists Toolkit (G)',
         '6.5320 - Geometric Computing (G)',
         '18.404 - Theory of Computation',
         '6.1220 - Design and Analysis of Algorithms'
