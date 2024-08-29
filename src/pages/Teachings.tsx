@@ -4,12 +4,19 @@ import Tent from '../imgs/tent.jpg'
 
 const teachings = [
     {
+        "title": 'Teaching Assistant',
+        "organization": 'MIT 6.100A/B Introduction to Computational Thinking and Data Science',
+        "date": 'Sep. 2024 - Present',
+        "description": "I will be teaching assistant for MIT 6.100A/B Introduction to Computer Science, holding weekly recitations and developing problem sets, practice problems, and helping students learn.",
+    },
+    {
         "title": 'Co-Academic Chair & Instructor',
-        "organization": 'MIT Web Lab Web Programming Competition',
+        "organization": 'MIT 6.9620 Web Lab Web Programming Competition',
         "date": 'Jan 2023',
         "description": <p>I was the co-academic chair and one of the instructors for the <a href='https://weblab.mit.edu/'>MIT Web Lab Web Programming Competition </a> in January 2023. Our team of 13 taught over 300 students how to build and deploy a full-stack web application. My Co-Academic Chair (Abby) and I organized and structured half a semester's worth of academic material, coordinated 32 hours of lecture across 13 instructures, and set learning objectives for our class. I also developed (with Abby, Andy, and Andrew) lecture material for Vector Similarity Search, Retrieval Augmented Generation (RAG), ReactJs, the client server model, Promises, Asynchronous Javascript, and version control with Git.</p>,
         "img": WeblabPhoto,
-        "link": "https://weblab.mit.edu/"
+        "link": "https://weblab.mit.edu/",
+        "rating": "7.0/7.0 (n=20)"
     },
     {
         "title": "Instructor & Cirriculum Developer",
@@ -19,6 +26,16 @@ const teachings = [
         "img": Tent,
         "link": "https://misti.mit.edu/mit-israel",
     },
+]
+
+const workshops = [
+    {
+        "title": "Beginner Hack Workshop Co-Lead",
+        "organization": "HackMIT 2024",
+        "date": "Sep 2024",
+        "description": "",
+        "img": null,
+    },
     {
         "title": "Beginner Hack Workshop Co-Lead",
         "organization": "HackMIT 2022",
@@ -27,12 +44,6 @@ const teachings = [
         "img": null,
         "link": "https://comet-bathroom-74b.notion.site/Beginner-Hack-ecbd1f393bba44428b4f7b0c47a39167",
     },
-    // {
-    //     "title": 'Teaching Assistant',
-    //     "organization": 'MIT 6.100A/B Introduction Introduction to Computational Thinking and Data Science',
-    //     "date": 'September 2024 - Present',
-    //     "description": "I will be teaching assistant for MIT 6.100A/B Introduction to Computational Thinking and Data Science"
-    // },
 ]
 
 
@@ -40,13 +51,24 @@ const Teachings: React.FC = () => {
     return (
         <div>
             <h1>Teaching</h1>
+            <h2>Courses</h2>
             {teachings.map((teaching) => (
                 <>
                     <h3>{teaching.organization}</h3>
                     <p>                    <i>{teaching.title}</i> |                    {teaching.date} | <a href={teaching.link}> link </a></p>
+                    <p>{teaching.rating ? "Instructor Rating: " + teaching.rating + " on MIT Course Evaluations": ''}</p>
                     {teaching.img && <img src={teaching.img} className='img'></img>}
                     <p>{teaching.description}</p>
-                    
+                </>
+            ))}
+            <h2>Workshops</h2>
+            {workshops.map((workshop) => (
+                <>
+                    <h3>{workshop.organization}</h3>
+                    <p>                    <i>{workshop.title}</i> |                    {workshop.date} | <a href={workshop.link}> link </a></p>
+                    {/* <p>{workshop.rating ? "Instructor Rating: " + workshop.rating + " on MIT Course Evaluations": ''}</p> */}
+                    {workshop.img && <img src={workshop.img} className='img'></img>}
+                    <p>{workshop.description}</p>
                 </>
             ))}
         </div>

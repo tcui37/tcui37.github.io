@@ -10,7 +10,7 @@ const About: React.FC = () => {
                 <div className='item'>
                 <h1>Tony A. Cui</h1>
                 <p>Hello! I'm a first year M.Eng student at MIT</p>
-                <p>Currently, I'm a software engineering intern on the <a href='https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-ai.html'>Allegro X AI</a> team at <a href='https://cadence.com/'>Cadence Design Systems</a>, where I'm integrating Bayesian Optimization methods for PCB design algorithms. </p>
+                <p>Most recently, I interned on the <a href='https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-ai.html'>Allegro X AI</a> team at <a href='https://cadence.com/'>Cadence Design Systems</a>, where I developed an autmated parallelized Bayesian Optimization library for PCB design algorithms. </p>
 
                 <p>I completed my undergraduate studies at MIT, where I conducted research at the <a href='https://cdfg.mit.edu/'>MIT Computational Design & Fabrication</a> group, working on reinforcement learning methods for black box optimization, and the <a href='https://gamelab.mit.edu/'>MIT Game Lab</a> where I worked on learning simulations for kids!</p>
 
