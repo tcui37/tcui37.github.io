@@ -9,12 +9,13 @@ const About: React.FC = () => {
             <div className='intro-flexbox'>
                 <div className='item'>
                 <h1>Tony A. Cui</h1>
-                <p>Hello! I'm a first year M.Eng student at MIT</p>
-                <p>Most recently, I interned on the <a href='https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-ai.html'>Allegro X AI</a> team at <a href='https://cadence.com/'>Cadence Design Systems</a>, where I developed an autmated parallelized Bayesian Optimization library for PCB design algorithms. </p>
+                <p>Hello! I'm a first year M.Eng student studying Computer Science at MIT. </p>
 
-                <p>I completed my undergraduate studies at MIT, where I conducted research at the <a href='https://cdfg.mit.edu/'>MIT Computational Design & Fabrication</a> group, working on reinforcement learning methods for black box optimization, and the <a href='https://gamelab.mit.edu/'>MIT Game Lab</a> where I worked on learning simulations for kids!</p>
+                {/* <p>Most recently, I interned on the , where I developed an autmated parallelized Bayesian Optimization library for PCB design algorithms. </p> */}
 
-                <p>Previously, I held two internships at <a href='Microsoft'>Microsoft</a>. In 2023, I worked on an internal AI information retrieval service with <a href='https://azure.microsoft.com/en-us/solutions/ai'>Microsoft Cloud & AI</a>. In 2022, I developed a command line suite for microservice development with <a href='https://www.microsoft.com/en-us/research/group/exd/'>Microsoft E & D</a>.</p>
+                <p>I completed my undergraduate studies at MIT, where I conducted research at the <a href='https://cdfg.mit.edu/'>MIT Computational Design & Fabrication</a> group, working on reinforcement learning methods for black box optimization</p>
+
+                <p>Previously, I've held software engineering internships at the <a href='https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-ai.html'>Allegro X AI</a> team at <a href='https://cadence.com/'>Cadence Design Systems</a>, <a href='https://azure.microsoft.com/en-us/solutions/ai'>Microsoft Cloud & AI</a>, <a href='https://www.microsoft.com/en-us/research/group/exd/'>Microsoft E&D</a>, working on various fullstack, AI, and optimization projects.</p>
 
                 <p>I love playing both acoustic and electric guitar, playing volleyball and badminton, and learning how to cook.</p>
 

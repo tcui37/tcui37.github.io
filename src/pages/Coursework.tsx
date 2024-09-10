@@ -53,11 +53,6 @@ const coursework = {
         '11.125 - Evalating Education',
         'CMS.590 - Games for Education',
     ],
-    'For Funsies': [
-        '21G.902 - Chinese II (Streamlined)',
-        '21G.108 - Korean II',
-        '21M.600 - Intro to Acting',
-    ],
 }
 
 
