@@ -7,7 +7,7 @@ const teachings = [
         "title": 'Teaching Assistant',
         "organization": 'MIT 6.100A/B Introduction to Computer Science Programming',
         "date": 'Sep. 2024 - Present',
-        "description": "I am currently a teaching assistant for MIT 6.100A/B Introduction to Computer Science. I hold weekly recitations, develope problem sets, create course notes, and hold office hours.",
+        "description": "I am currently a teaching assistant for MIT 6.100A/B Introduction to Computer Science. I hold weekly recitations, develop problem sets, create course notes, and hold office hours.",
     },
     {
         "title": 'Co-Academic Chair & Instructor',
@@ -29,7 +29,7 @@ const teachings = [
         "title": "Instructor & Cirriculum Developer",
         "organization": "MIT Global Teaching Labs: Israel & Siraj Digital Tent",
         "date": "Jan 2022",
-        "description": "Our team of 5 pioneered the first iteration of GTL Israel's Digital Tent program, a 4-week program that introduces a class of 20 high school sophomores across 7 villages in the Negev to computer science. We utilized the principle of backwards design to develope 4 weeks of computer science cirriculum, including python fundamentals, hardware and circuitry, and web development. We had developed lesson plans, test cases, homework assignments, and projects of varying difficulty from scratch, and had lots of fun teaching and mentoring the kids! ❤️ ",
+        "description": "Our team of 5 pioneered the first iteration of GTL Israel's Digital Tent program, a 4-week program that introduces a class of 20 high school sophomores across 7 villages in the Negev to computer science. We utilized the principle of backwards design to develop 4 weeks of computer science cirriculum, including python fundamentals, hardware and circuitry, and web development. We had developed lesson plans, test cases, homework assignments, and projects of varying difficulty from scratch, and had lots of fun teaching and mentoring the kids! ❤️ ",
         "img": Tent,
         "link": "https://misti.mit.edu/mit-israel",
     },
