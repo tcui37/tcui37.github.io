@@ -1,17 +1,18 @@
 import React from 'react';
 import WeblabPhoto from '../imgs/weblab.jpg'
 import Tent from '../imgs/tent.jpg'
+import { Grid } from '@mui/material';
 
 const teachings = [
     {
         "title": 'Teaching Assistant',
-        "organization": 'MIT 6.100A/B Introduction to Computer Science Programming',
+        "organization": 'MIT 6.100A/B Introduction to Computer Science Programming, Computational Thinking, and Data Science',
         "date": 'Sep. 2024 - Present',
-        "description": "I am currently a teaching assistant for MIT 6.100A/B Introduction to Computer Science. I hold weekly recitations, develop problem sets, create course notes, and hold office hours.",
+        "description": "I am currently a teaching assistant for MIT 6.100A/B Introduction to Computer Science. I hold weekly recitations, develop problem sets for dynamic programming and introductory graph algorithms, create course notes, and hold office hours.",
     },
     {
         "title": 'Co-Academic Chair & Instructor',
-        "organization": 'MIT 6.9620 Web Lab Web Programming Competition',
+        "organization": 'MIT 6.9620 Web Lab:  Web Programming Competition',
         "date": 'Jan 2023',
         "description": <>
             <p>
@@ -37,14 +38,15 @@ const teachings = [
 
 const workshops = [
     {
-        "title": "Beginner Hack Workshop Co-Lead",
+        "title": "Beginner Hack Workshop",
         "organization": "HackMIT 2024",
         "date": "Sep 2024",
-        "description": "",
+        "description": "Abby and I ran a 2.5 hour workshop for HackMIT 2024, where we taught basic web development (React, Flask, HTMLL, CSS) and version control by walking students through making Catflix (Netflix, but about cats).",
         "img": null,
+        "link": "https://www.youtube.com/watch?v=shTmG6txIbE&ab_channel=HackMIT"
     },
     {
-        "title": "Beginner Hack Workshop Co-Lead",
+        "title": "Beginner Hack Workshop",
         "organization": "HackMIT 2022",
         "date": "Sep 2022",
         "description": "Amanda and I lead the beginner hack workshop for HackMIT 2022, where we taught basic web development and version control.",
@@ -59,20 +61,39 @@ const Teachings: React.FC = () => {
         <div>
             <h1>Teaching</h1>
             <h2>Courses</h2>
-            {teachings.map((teaching) => (
+            {teachings.map((teaching, index) => (
+
                 <>
-                    <h3>{teaching.organization}</h3>
-                    <p>                    <i>{teaching.title}</i> |                    {teaching.date} | <a href={teaching.link}> link </a></p>
-                    <p>{teaching.rating ? "Instructor Rating: " + teaching.rating + " on MIT Course Evaluations": ''}</p>
-                    {teaching.img && <img src={teaching.img} className='img'></img>}
-                    <p>{teaching.description}</p>
+                    {teaching.img ? 
+                    <>
+                        <h3>{teaching.organization}</h3>
+                    <Grid container spacing={4} key={index}>
+                     <Grid item xs={12} md={6}>
+                        <p><i>{teaching.title}</i> | {teaching.date} | <a href={teaching.link}> link </a></p>
+                        <p>{teaching.description}</p>
+                         
+                        <p>{teaching.rating ? "Instructor Rating: " + teaching.rating + " on MIT Course Evaluations": ''}</p>
+                     </Grid>
+                     <Grid item xs={12} md={6}>
+                         {teaching.img && <img src={teaching.img} className='img' alt='Project Image'></img>}
+                     </Grid>
+                 </Grid>
+
+                    </> : 
+                    <>
+                        <h3>{teaching.organization}</h3>
+                        <p>                    <i>{teaching.title}</i> |                    {teaching.date} | <a href={teaching.link}> link </a></p>
+                        <p>{teaching.rating ? "Instructor Rating: " + teaching.rating + " on MIT Course Evaluations": ''}</p>
+                        {teaching.img && <img src={teaching.img} className='img'></img>}
+                        <p>{teaching.description}</p>
+                    </>}
                 </>
             ))}
             <h2>Workshops</h2>
             {workshops.map((workshop) => (
                 <>
                     <h3>{workshop.organization}</h3>
-                    <p>                    <i>{workshop.title}</i> |                    {workshop.date} | <a href={workshop.link}> link </a></p>
+                    <p>                    <i>{workshop.title}</i> |                    {workshop.date} | <a href={workshop.link}>  video link </a></p>
                     {/* <p>{workshop.rating ? "Instructor Rating: " + workshop.rating + " on MIT Course Evaluations": ''}</p> */}
                     {workshop.img && <img src={workshop.img} className='img'></img>}
                     <p>{workshop.description}</p>
