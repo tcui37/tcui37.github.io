@@ -6,9 +6,15 @@ import { Grid } from '@mui/material';
 const teachings = [
     {
         "title": 'Teaching Assistant',
-        "organization": 'MIT 6.100A/B Introduction to Computer Science Programming, Computational Thinking, and Data Science',
-        "date": 'Sep. 2024 - Present',
-        "description": "I am currently a teaching assistant for MIT 6.100A/B Introduction to Computer Science. I hold weekly recitations, develop problem sets for dynamic programming and introductory graph algorithms, create course notes, and hold office hours.",
+        "organization": 'MIT 6.100B Introduction to Computational Thinking, and Data Science',
+        "date": 'Nov 2024 - Present',
+        "description": "I am currently a teaching assistant for MIT 6.100A/B Introduction to Computer Science. I hold weekly recitations and develop problem sets, covering dynamic programming, graph algorithms, probabilistic simulations, and introductory data science. ",
+    },
+    {
+        "title": 'Teaching Assistant',
+        "organization": 'MIT 6.100A Introduction to Computer Science Programming in Python',
+        "date": 'Sep. 2024 - Nov 2024',
+        "description": "I am was a teaching assistant for MIT 6.100A. I held weekly recitations and develop problem sets, covering python fundamentals, data structures, recursion, and asymptotic complexity",
     },
     {
         "title": 'Co-Academic Chair & Instructor',
@@ -16,10 +22,10 @@ const teachings = [
         "date": 'Jan 2023',
         "description": <>
             <p>
-            I was the co-academic chair and one of the instructors for the <a href='https://weblab.mit.edu/'>MIT Web Lab Web Programming Competition </a> in January 2023. Our team of 13 taught over 300 students how to build and deploy a full-stack web application. My Co-Academic Chair (Abby) and I organized and structured half a semester's worth of academic material, coordinated 32 hours of lecture across 13 instructures, and set learning objectives for our class. I also developed (with Abby, Andy, and Andrew) lecture material for Vector Similarity Search, Retrieval Augmented Generation (RAG), ReactJs, the client server model, Promises, Asynchronous Javascript, and version control with Git.
+            I was the co-academic chair and an instructor for the <a href='https://weblab.mit.edu/'>MIT Web Lab Web Programming Competition</a> staff, guiding over 300 students how to develop, build, and deploy full stack web applications. As academic chair, I co-lead the organization and structure half a semester's worth of academic material, coordinated 32 hours of lecture across 13 instructures, and set learning objectives for our class. I also lead the development of 8 lectures lectures (Topics include but not limited to: Retrieval Augmented Generation (RAG), ReactJs, Promises, Asynchronous Javascript, and version control with Git).
             </p>
             <p>
-                Our lecture material caught the attention of various institutions, and have been used at <a href="https://langara.ca/programs-and-courses/courses/CPSC/2650.html" > Langara College's CPSC 2650</a>, Canada and <a href="https://www.itb.ac.id/"> Institut Teknologi Bandung (ITB)</a>, Indonesia
+                Our comprehensive lecture material caught the attention of various institutions, and have been used at <a href="https://langara.ca/programs-and-courses/courses/CPSC/2650.html" > Langara College's CPSC 2650</a>, Canada and <a href="https://www.itb.ac.id/"> Institut Teknologi Bandung (ITB)</a>, Indonesia
             </p>
             </>,
         "img": WeblabPhoto,
@@ -69,7 +75,7 @@ const Teachings: React.FC = () => {
                         <h3>{teaching.organization}</h3>
                     <Grid container spacing={4} key={index}>
                      <Grid item xs={12} md={6}>
-                        <p><i>{teaching.title}</i> | {teaching.date} | <a href={teaching.link}> link </a></p>
+                        <p><i>{teaching.title}</i> | {teaching.date}</p>
                         <p>{teaching.description}</p>
                          
                         <p>{teaching.rating ? "Instructor Rating: " + teaching.rating + " on MIT Course Evaluations": ''}</p>
@@ -82,7 +88,7 @@ const Teachings: React.FC = () => {
                     </> : 
                     <>
                         <h3>{teaching.organization}</h3>
-                        <p>                    <i>{teaching.title}</i> |                    {teaching.date} | <a href={teaching.link}> link </a></p>
+                        <p>                    <i>{teaching.title}</i> |                    {teaching.date}</p>
                         <p>{teaching.rating ? "Instructor Rating: " + teaching.rating + " on MIT Course Evaluations": ''}</p>
                         {teaching.img && <img src={teaching.img} className='img'></img>}
                         <p>{teaching.description}</p>

@@ -9,9 +9,7 @@ const About: React.FC = () => {
             <div className='intro-flexbox'>
                 <div className='item'>
                 <h1>Tony A. Cui</h1>
-                <p>Hello! I'm a first year M.Eng student studying Computer Science at MIT. </p>
-
-                {/* <p>Most recently, I interned on the , where I developed an autmated parallelized Bayesian Optimization library for PCB design algorithms. </p> */}
+                <p>Hello! I'm a first year M.Eng student studying Computer Science at MIT. Currently, I'm researching Graph AI and Algorithms for Computational Genomics at the <a href='https://www.broadinstitute.org/'>Broad Institute</a>. </p>
 
                 <p>I completed my undergraduate studies at MIT, where I conducted research at the <a href='https://cdfg.mit.edu/'>MIT Computational Design & Fabrication</a> group, working on reinforcement learning methods for black box optimization</p>
 
