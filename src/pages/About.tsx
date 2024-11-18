@@ -1,5 +1,5 @@
 import React from 'react';
-import pfp from '../imgs/tonycenter2.jpg'
+import pfp from '../imgs/tony5.jpeg'
 import { Grid } from '@mui/material';
 const cai = 'https://www.google.com/search?q=microsoft+cloud+%2B+ai&oq=micro&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIVCAEQLhhDGMcBGLEDGNEDGIAEGIoFMgYIAhBFGDsyBggDEEUYOzIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEHODMxajBqMagCALACAA&sourceid=chrome&ie=UTF-8'
 const About: React.FC = () => {
@@ -10,10 +10,8 @@ const About: React.FC = () => {
                 <div className='item'>
                 <h1>Tony A. Cui</h1>
                 <p>Hello! I'm a first year M.Eng student studying Computer Science at MIT. Currently, I'm researching Graph AI and Algorithms for Computational Genomics at the <a href='https://www.broadinstitute.org/'>Broad Institute</a>. </p>
-
-                <p>I received my bachelor's degree at MIT in '24</p>
-
-                <p>I've held software engineering internships at <a href='https://cadence.com/'>Cadence Design Systems's</a> <a href='https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-ai.html'>Allegro X AI</a> team, <a href='https://azure.microsoft.com/en-us/solutions/ai'>Microsoft Cloud & AI</a>, <a href='https://www.microsoft.com/en-us/research/group/exd/'>Microsoft E&D</a>, working on various fullstack, AI, developer tools, and optimization projects.</p>
+                <p> Previously, I completed bachelor's from MIT, where I worked on black box optimization methods with the <a href='https://cdfg.mit.edu/'>Computational Design and Fabrication Group</a> at MIT CSAIL.</p>
+                <p> I've held engineering internships at <a href='https://cadence.com/'>Cadence Design Systems's</a> <a href='https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-x-ai.html'>Allegro X AI</a> team, <a href='https://azure.microsoft.com/en-us/solutions/ai'>Microsoft Cloud & AI</a>, <a href='https://www.microsoft.com/en-us/research/group/exd/'>Microsoft E&D</a>, working on various fullstack, AI, developer tools, and optimization projects.</p>
 
                 <p>My Linkedin can be found <a href='https://www.linkedin.com/in/tcui/'>here</a>. My email is ta&#123;last_name&#125;@mit.edu  </p>
 
