@@ -6,15 +6,15 @@ import { Grid } from '@mui/material';
 const teachings = [
     {
         "title": 'Teaching Assistant',
-        "organization": 'MIT 6.100B Introduction to Computational Thinking, and Data Science',
+        "organization": 'MIT 6.100B Introduction to Computational Thinking and Data Science',
         "date": 'Nov 2024 - Present',
-        "description": "I am currently a teaching assistant for MIT 6.100A/B Introduction to Computer Science. I hold weekly recitations and develop problem sets, covering dynamic programming, graph algorithms, probabilistic simulations, and introductory data science. ",
+        "description": "I am currently a teaching assistant for MIT 6.100B. I hold weekly recitations and develop problem sets, covering dynamic programming, graph algorithms, probabilistic simulations, and introductory data science. ",
     },
     {
         "title": 'Teaching Assistant',
         "organization": 'MIT 6.100A Introduction to Computer Science Programming in Python',
         "date": 'Sep. 2024 - Nov 2024',
-        "description": "I am was a teaching assistant for MIT 6.100A. I held weekly recitations and develop problem sets, covering python fundamentals, data structures, recursion, and asymptotic complexity",
+        "description": "I am was a teaching assistant for MIT 6.100A. I held weekly recitations and develop problem sets, covering python fundamentals, data structures, recursion, and asymptotic complexity.",
     },
     {
         "title": 'Co-Academic Chair & Instructor',
