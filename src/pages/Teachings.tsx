@@ -22,7 +22,7 @@ const teachings = [
         "date": 'Jan 2023',
         "description": <>
             <p>
-            I was the co-academic chair and an instructor for the <a href='https://weblab.mit.edu/'>MIT Web Lab Web Programming Competition</a> staff, guiding over 300 students how to develop, build, and deploy full stack web applications. As academic chair, I co-lead the organization and structure half a semester's worth of academic material, coordinated 32 hours of lecture across 13 instructures, and set learning objectives for our class. I also lead the development of 8 lectures lectures (Topics include but not limited to: Retrieval Augmented Generation (RAG), ReactJs, Promises, Asynchronous Javascript, and version control with Git).
+            I was the co-academic chair and an instructor for the <a href='https://weblab.mit.edu/'>MIT Web Lab Web Programming Competition</a> staff, guiding over 300 students how to develop, build, and deploy full stack web applications. As academic chair, I co-lead the organization and structure half a semester's worth of academic material, coordinated 32 hours of lectures across 13 instructures, and set learning objectives for our class. I also lead the development of 8 lectures lectures (Topics include but not limited to: Retrieval Augmented Generation (RAG), ReactJs, Promises, Asynchronous Javascript, and version control with Git).
             </p>
             <p>
                 Our comprehensive lecture material caught the attention of various institutions, and have been used at <a href="https://langara.ca/programs-and-courses/courses/CPSC/2650.html" > Langara College's CPSC 2650</a>, Canada and <a href="https://www.itb.ac.id/"> Institut Teknologi Bandung (ITB)</a>, Indonesia
