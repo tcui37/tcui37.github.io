@@ -30,7 +30,18 @@ const teachings = [
             </>,
         "img": WeblabPhoto,
         "link": "https://weblab.mit.edu/",
-        "rating": "7.0/7.0 median"
+        "rating": "7.0/7.0 median",
+        "evaluations":<p>
+        Student Evaluations (Anonymously collected by MIT Course Evaluations):
+        <ul>
+
+            <li>"helped me review material outside of lecture, was very animated and easy to follow during his lectures"</li>
+            <li>"Really good teaching"</li>
+            <li>"Funny slides! :)"</li>
+            </ul>
+
+        
+        </p>
     },
     {
         "title": "Instructor & Cirriculum Developer",
@@ -84,6 +95,7 @@ const Teachings: React.FC = () => {
                          {teaching.img && <img src={teaching.img} className='img' alt='Project Image'></img>}
                      </Grid>
                  </Grid>
+                        <p>{teaching.evaluations}</p>
 
                     </> : 
                     <>
