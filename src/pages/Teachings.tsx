@@ -7,13 +7,15 @@ const teachings = [
     {
         "title": 'Teaching Assistant',
         "organization": 'MIT 6.100B Introduction to Computational Thinking and Data Science',
-        "date": 'Nov 2024 - Present',
+        "date": 'Nov 2024 - Dec 2024',
+        "rating": "7.0/7.0 average rating ",
         "description": "I am currently a teaching assistant for MIT 6.100B. I hold weekly recitations and develop problem sets, covering dynamic programming, graph algorithms, probabilistic simulations, and introductory data science. ",
     },
     {
         "title": 'Teaching Assistant',
         "organization": 'MIT 6.100A Introduction to Computer Science Programming in Python',
-        "date": 'Sep. 2024 - Nov 2024',
+        "date": 'Sep. 2024 - Oct 2024',
+        "rating": "6.5/7.0 average rating",
         "description": "I am was a teaching assistant for MIT 6.100A. I held weekly recitations and develop problem sets, covering python fundamentals, data structures, recursion, and asymptotic complexity.",
     },
     {
@@ -30,7 +32,7 @@ const teachings = [
             </>,
         "img": WeblabPhoto,
         "link": "https://weblab.mit.edu/",
-        "rating": "7.0/7.0 median",
+        "rating": "6.9/7.0 average rating",
         "evaluations":<p>
         Student Evaluations (Anonymously collected by MIT Course Evaluations):
         <ul>
@@ -101,9 +103,9 @@ const Teachings: React.FC = () => {
                     <>
                         <h3>{teaching.organization}</h3>
                         <p>                    <i>{teaching.title}</i> |                    {teaching.date}</p>
-                        <p>{teaching.rating ? "Instructor Rating: " + teaching.rating + " on MIT Course Evaluations": ''}</p>
                         {teaching.img && <img src={teaching.img} className='img'></img>}
                         <p>{teaching.description}</p>
+                        <p>{teaching.rating ? "Instructor Rating: " + teaching.rating + " on MIT Course Evaluations": ''}</p>
                     </>}
                 </>
             ))}
