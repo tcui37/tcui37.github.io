@@ -8,14 +8,14 @@ const teachings = [
         "title": 'Teaching Assistant',
         "organization": 'MIT 6.100B Introduction to Computational Thinking and Data Science',
         "date": 'Nov 2024 - Dec 2024',
-        "rating": "7.0/7.0 average rating ",
+        "rating": "7.0/7.0",
         "description": "I am currently a teaching assistant for MIT 6.100B. I hold weekly recitations and develop problem sets, covering dynamic programming, graph algorithms, probabilistic simulations, and introductory data science. ",
     },
     {
         "title": 'Teaching Assistant',
         "organization": 'MIT 6.100A Introduction to Computer Science Programming in Python',
         "date": 'Sep. 2024 - Oct 2024',
-        "rating": "6.5/7.0 average rating",
+        "rating": "6.5/7.0",
         "description": "I am was a teaching assistant for MIT 6.100A. I held weekly recitations and develop problem sets, covering python fundamentals, data structures, recursion, and asymptotic complexity.",
     },
     {
@@ -24,7 +24,7 @@ const teachings = [
         "date": 'Jan 2023',
         "description": <>
             <p>
-            I was the co-academic chair and an instructor for the <a href='https://weblab.mit.edu/'>MIT Web Lab Web Programming Competition</a> staff, guiding over 300 students how to develop, build, and deploy full stack web applications. As academic chair, I co-lead the organization and structure half a semester's worth of academic material, coordinated 32 hours of lectures across 13 instructures, and set learning objectives for our class. I also lead the development of 8 lectures lectures (Topics include but not limited to: Retrieval Augmented Generation (RAG), ReactJs, Promises, Asynchronous Javascript, and version control with Git).
+            I was the co-academic chair and an instructor for the <a href='https://weblab.mit.edu/'>MIT Web Lab Web Programming Competition</a> staff, guiding over 300 students how to develop, build, and deploy full stack web applications. As academic chair, I co-lead the organization and structure half a semester's worth of academic material, coordinated 32 hours of lectures across 13 instructures, and set learning objectives for our class. I also lead the development of 8 lectures (Topics include but not limited to: Retrieval Augmented Generation (RAG), ReactJs, Promises, Asynchronous Javascript, and version control with Git).
             </p>
             <p>
                 Our comprehensive lecture material caught the attention of various institutions, and have been used at <a href="https://langara.ca/programs-and-courses/courses/CPSC/2650.html" > Langara College's CPSC 2650</a>, Canada and <a href="https://www.itb.ac.id/"> Institut Teknologi Bandung (ITB)</a>, Indonesia
